@@ -26,7 +26,7 @@ const Login = () => {
       return;
     }
     localStorage.setItem("taskapp_user", JSON.stringify({ nombre: nombre.trim(), departamento }));
-    navigate("/panel");
+    navigate("/task");
   };
 
   return (

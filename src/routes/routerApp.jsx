@@ -1,5 +1,7 @@
 import Login from "../pages/Login";
 import Task from "../pages/Task";
+import ProtectedRoute from "../components/ProtectedRoute";
+
 
 
 export let routerApp = [
@@ -7,9 +9,17 @@ export let routerApp = [
     path: "/",
     element: <Login />,
   },
-{
-    path:"/task",
-    element:<Task />
-},
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/task",
+    element: (
+      <ProtectedRoute>
+        <Task />
+      </ProtectedRoute>
+    ),
+  },
   
 ];
