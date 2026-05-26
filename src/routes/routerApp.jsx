@@ -1,15 +1,15 @@
-import Login from "../pages/Login1";
-import Task1 from "../pages/Task1";
+import Login from "../pages/Login";
+import Task from "../pages/Task";
 
 
 export let routerApp = [
   {
     path: "/",
-    element: <Login1 />,
+    element: <Login />,
   },
 {
-    path:"/task1",
-    element:<Task1 />
+    path:"/task",
+    element:<Task />
 },
   
 ];
