@@ -1,8 +1,19 @@
-import React from 'react'
+import CardTask from "../components/CardTask";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Task1 = () => {
+  
   return (
-    <div>Task1</div>
+    <>
+      <Header />
+      <div>
+        <CardTask />
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </>
   )
 }
 
