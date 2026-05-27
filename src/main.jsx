@@ -6,7 +6,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-      <RouterProvider router={createBrowserRouter(routerApp)} />
+    <RouterProvider router={createBrowserRouter(routerApp, { basename: '/deployment-task-manager' })} />
   </StrictMode>,
 )
 

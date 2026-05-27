@@ -5,6 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+
+  base: '/deployment-task-manager/',
+  
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),
