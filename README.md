@@ -105,5 +105,11 @@ npm run dev
 El proyecto se ejecutará normalmente en:
 
 ```bash
-http://localhost:5173
+ http://localhost:5173/deployment-task-manager/
+```
+
+Su link de despliegue es: 
+
+```bash
+https://malzate1.github.io/deployment-task-manager/
 ```
