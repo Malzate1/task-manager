@@ -12,15 +12,6 @@ Además, requiere autenticación mediante nombre de usuario y área de trabajo c
 
 ---
 
-# Tecnologías utilizadas
-
-* React + Vite
-* Tailwind CSS
-* SweetAlert2
-* React Router DOM
-* React DOM
-
----
 
 # Stack tecnológico
 
